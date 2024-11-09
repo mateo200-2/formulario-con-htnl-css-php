@@ -1,0 +1,106 @@
+/* Cambia el fondo del navbar */
+.navbar {
+    background-color: #3498db !important; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+.navbar .nav-link {
+    color: #ffffff !important; 
+    transition: color 0.3s ease; 
+}
+
+
+.navbar .nav-link:hover {
+    color: #ffdd57 !important; 
+}
+
+body {
+    background: linear-gradient(to bottom, rgba(150, 229, 243, 0.9), rgba(112, 138, 209, 0.9), rgba(101, 250, 158, 0.9)); /* Ajusta la opacidad */
+    min-height: 100vh; 
+    margin: 0; 
+}
+
+.container {
+    background-color: #e9e8e8; 
+    padding: 40px; 
+    border-radius: 10px;
+}
+
+form {
+    background: linear-gradient(to bottom, #96e5f39a, #708ad1, #65fa9e);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    max-width: 400px;
+    margin: auto;
+    border: 2px solid rgba(0, 0, 0, 0.1); 
+}
+
+label {
+    display: block;
+    margin-bottom: 2px;
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    
+
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid rgb(247, 244, 238);
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+input:focus {
+    border-color: #3498db; 
+    outline: none; 
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5); 
+}
+#enviar {
+    background-color: #3498db;
+    color: white; 
+    border: none; 
+    border-radius: 20px; 
+    padding: 12px 20px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+    width: 100%; 
+    margin-top: 10px; 
+}
+
+#enviar:hover {
+    background-color: #53d9eb; /* Color al pasar el cursor */
+}
+h1{
+
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    margin: 20px auto;
+    display: block;
+}
+
+button:hover {
+    background-color: #76beee;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
